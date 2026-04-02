@@ -1,0 +1,26 @@
+atividade aula 02/04/2026
+
+
+Leia um número inteiro e informe se ele é positivo, negativo ou zero.
+Leia um número inteiro e verifique se ele é par ou ímpar.
+Leia a idade de uma pessoa e informe se ela é maior ou menor de idade (18 anos).
+Leia o valor de uma compra. Se o valor for maior que R$ 100, aplique 10% de desconto.
+Leia duas notas, calcule a média e informe:
+Aprovado (média ≥ 7)
+Recuperação (média ≥ 5 e < 7)
+Reprovado (média < 5)
+
+
+
+#1
+
+number = int(input("Enter an integer: "))
+if number > 0:
+    print("The number is Positive.")
+elif number < 0:
+    print("The number is Negative.")
+else:
+    print("The number is Zero.")
+
+
+#2
