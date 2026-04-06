@@ -1,11 +1,11 @@
 atividade aula 02/04/2026
 
 
-Leia um número inteiro e informe se ele é positivo, negativo ou zero.
-Leia um número inteiro e verifique se ele é par ou ímpar.
-Leia a idade de uma pessoa e informe se ela é maior ou menor de idade (18 anos).
-Leia o valor de uma compra. Se o valor for maior que R$ 100, aplique 10% de desconto.
-Leia duas notas, calcule a média e informe:
+1)Leia um número inteiro e informe se ele é positivo, negativo ou zero.ok
+2)Leia um número inteiro e verifique se ele é par ou ímpar.ok
+3)Leia a idade de uma pessoa e informe se ela é maior ou menor de idade (18 anos).ok
+4)Leia o valor de uma compra. Se o valor for maior que R$ 100, aplique 10% de desconto.
+5)Leia duas notas, calcule a média e informe:
 Aprovado (média ≥ 7)
 Recuperação (média ≥ 5 e < 7)
 Reprovado (média < 5)
@@ -14,15 +14,80 @@ Reprovado (média < 5)
 
 #1
 
-number = int(input("Enter an integer: "))
-if number > 0:
-    print("The number is Positive.")
-elif number < 0:
-    print("The number is Negative.")
+numero = int(input("escolher numero:"))
+
+if numero > 0:
+    print(f"numero é positivo.")
+elif numero < 0:
+    print(f"numero é negativo.")
 else:
-    print("The number is Zero.")
+    print(f"numero é zero.")
+
+print(f"O resultado é: {numero}")
 
 
 #2
+numero = int(input("digitar numero: "))
+if numero % 2 == 0:
+print(f"O número {numero} é par.")
+else:
+print(f"O número {numero} é impar.")
+
+
+#3
+
+
+
+
+idade = int(input("Digite sua idade:"))
+if idade <= 18:
+    print(f"É menor de idade")
+else:
+    print (f"É maior de idade")
+
+
+#4
+
+
+compra = int(input("valor da sua compra: "))
+if compra > 100: 
+desconto = compra * 0.1
+valor_final = (compra - desconto)
+print(f"o valor com desconto é:{valor_final}")
+else: 
+print (f"o valor da sua compra é:{compra}")
+
+
+
+#5
+
+
+
+nota1 = int(input("digite a nota1: "))
+nota2 = int(input("digite a nota2 "))
+
+nota_final = (nota1 + nota2) / 2
+
+if nota_final >= 7:
+    print("aprovado")
+elif nota_final >= 5:
+    print("recuperação")
+else:
+    print("reprovado")
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
