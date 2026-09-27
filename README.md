@@ -10,7 +10,8 @@ Repo da matéria de Programação, toda em Python. Aqui ficam as listas de exerc
 
 | Arquivo | O que é |
 |---|---|
-| [`aula_026`](aula_02%5C04%5C2026) | Lista de 02/04: positivo/negativo, par/ímpar, maioridade, desconto e média |
+| [`exercicios_02_04_2026/`](exercicios_02_04_2026) | Lista de 02/04 em Python, um arquivo por exercício: positivo/negativo, par/ímpar, maioridade, desconto e média |
+| [`aula_02_04_2026.txt`](aula_02_04_2026.txt) | O enunciado e as minhas respostas originais da aula |
 
 ## 🤝 Recado
 
